@@ -1,0 +1,137 @@
+/* style.css */
+:root {
+  --white: #FFFFFF;
+  --pink: #CC66CC;
+  --purple: #6C3483;
+  --text-dark: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--white);
+  border-bottom: 3px solid var(--pink);
+  padding: 1rem 2rem;
+}
+
+.logo h1 {
+  color: var(--purple);
+  font-size: 2rem;
+}
+
+.logo p {
+  color: var(--pink);
+  font-style: italic;
+}
+
+nav a {
+  color: var(--purple);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--pink);
+}
+
+.hero {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+
+.hero p {
+  color: #f0e6ff;
+}
+
+.btn {
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: var(--purple);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--pink);
+  color: var(--pink);
+}
+
+.btn-outline:hover {
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+.category-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(108, 52, 131, 0.1);
+  border-color: var(--pink);
+}
+
+.category-icon {
+  font-size: 2.5rem;
+  color: var(--pink);
+}
+
+.business-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.business-card h4 {
+  color: var(--purple);
+}
+
+.rating {
+  color: var(--pink);
+}
+
+footer {
+  background-color: var(--purple);
+  color: var(--white);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: var(--pink);
+  text-decoration: none;
+}
